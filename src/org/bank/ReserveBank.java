@@ -2,18 +2,22 @@ package org.bank;
 
 public abstract class ReserveBank {
 	
-	public abstract void savingAcc();
+	public abstract void eduLoan();
 	
-	public abstract void currentAcc();
+	public abstract void personalLoan();
 	
-	public abstract void fixedAcc();
+	public abstract void houseLoan();
 	
-	public void localAcc() {
+	public abstract void carLoan();
+	
+	
+	public void agriLoan() {
 		
-		System.out.println("loan percentage is 12");
+		System.out.println("agri loan percentage is 15%");
 
 	}
 	
 
+	
 
 }

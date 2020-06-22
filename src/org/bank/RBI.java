@@ -1,6 +1,6 @@
 package org.bank;
 
-public interface IciciBank {
+public interface RBI {
 	
 	void dummy();
 
